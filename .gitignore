@@ -1,0 +1,13 @@
+.eclipse/
+.settings/
+.idea/
+.qtc/
+build/
+bin/
+*.user
+.project
+.cproject
+.depend
+*.o
+*.a
+*.exe
