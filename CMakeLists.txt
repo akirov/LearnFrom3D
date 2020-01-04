@@ -6,7 +6,7 @@ project(LearnFrom3D)
 if (MINGW)
   set(OpenCV_DIR "D:/OpenCV/3.4.5/mingw530_32/install")
 elseif (MSVC)
-  set(OpenCV_DIR "D:/OpenCV/3.4.2/vs2015/install/x64/vc14/lib")
+  set(OpenCV_DIR "D:/OpenCV/3.4.5/vs2015/install/x64/vc14/lib")
 endif (MINGW)
 
 find_package(OpenCV REQUIRED)
