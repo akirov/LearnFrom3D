@@ -4,7 +4,7 @@ project(LearnFrom3D)
 
 
 if (MINGW)
-  set(OpenCV_DIR "D:/OpenCV/3.4.5/mingw530_32/install")
+  set(OpenCV_DIR "D:/OpenCV/3.4.5/mingw730_32/install")
 elseif (MSVC)
   set(OpenCV_DIR "D:/OpenCV/3.4.5/vs2015/install/x64/vc14/lib")
 endif (MINGW)
@@ -14,9 +14,9 @@ find_package(OpenCV REQUIRED)
 
 # Set Qt location if needed
 if (MINGW)
-  set(Qt5Core_DIR "D:/Qt/5.9.6/mingw53_32")
+  set(Qt5Core_DIR "D:/Qt/5.12.9/mingw73_32")
 elseif (MSVC)
-  set(Qt5Core_DIR "D:/Qt/5.9.6/msvc2015_64")
+  set(Qt5Core_DIR "D:/Qt/5.12.9/msvc2015_64")
 elseif (LINUX)
   # 'CMAKE_PREFIX_PATH=/opt/Qt/5.9.8/gcc_64/lib/cmake cmake ..'
 endif (MINGW)
